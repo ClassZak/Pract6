@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Pract6
+namespace Pract6_1
 {
     internal class Program
     {
@@ -18,7 +18,7 @@ namespace Pract6
                 Console.WriteLine("Сохраняем числа в файл \"F.txt\":");
                 for (int i = 0; i < data.Length; i++)
                 {
-                    data[i]=(byte)rnd.Next(255);
+                    data[i]=(byte)rnd.Next(256);
                     Console.WriteLine(data[i]);
                 }
 
